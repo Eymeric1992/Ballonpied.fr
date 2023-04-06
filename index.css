@@ -1,0 +1,473 @@
+body {
+  /*background-color: gold;*/
+  margin: 0;
+}
+footer {
+  background-color: black;
+  height: 110px;
+  color: white;
+}
+.imgarticle {
+  width: 100%;
+  height: 425px;
+}
+
+header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+    background-color: bisque;
+
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0px 0px 0px 0px;
+}
+
+.liarticle {
+  background-color: #f2ae1c;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 47px;
+  margin-top: 47px;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  color: black;
+  background-color: #f2ae1c;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 100%;
+  font-family: fantasy;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.menuUL {
+  display: flex;
+  /* gap: 43px; */
+  height: 100%;
+  justify-content: space-around;
+  margin: 0;
+  align-items: center;
+  width: 100%;
+}
+.logoPB {
+  display: flex;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  height: 100%;
+}
+
+
+section {
+    /*background-color: goldenrod;*/
+    height: 390px;
+}
+
+h2{
+  color: #f2ae1c;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  margin-top: 10%;
+  border-style: dashed;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 17px;
+}
+p{
+
+  position: relative;
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.articleCompact{
+  font-size: 2px;
+}
+
+.homepix {
+
+    width: 100%;
+    padding: 0;
+    height: 85%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.2;
+    
+}
+
+.bloctexthome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
+}
+
+/* ///////////////////////////////////////////////FIN DE LA PAGE ACCUEIL /////////////////////////////////////////*/
+
+
+.playimg{
+  height: 100%;
+  width: 100%;
+  border-radius: 30px;}
+
+
+.pitch{
+    background-color: #238729;
+    width: 590px;
+    height: 380px;
+    position: relative;
+}
+.pitch:after{
+  content: "";
+  border-left: 1px solid white;
+  position: absolute;
+  top :20px;
+  left :295px;
+  display:block;
+  height:340px;
+}
+
+.pitch:before{
+  content: "";
+  border: 1px solid white;
+  position: absolute;
+  top :20px;
+  left :20px;
+  display:block;
+  width: 550px;
+  height:340px;
+}
+
+.center-circle{
+    position: absolute;
+    top: 145px;
+    left: 250px;
+    width: 90px;
+    height: 90px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.center-circle:after{
+    position: absolute;
+    top: 43px;
+    left: 43px;
+    width: 1px;
+    height: 1px;
+    background-color:white;
+    content:"";
+    border:1px solid white;
+}
+
+.penalty-area{
+    position: absolute;
+    height: 140px;
+    width: 80px;
+    top: 120px;
+    border: 1px solid white;
+}
+
+.left .penalty-area{
+    left: 20px;
+    border-left: 0;
+}
+
+.right .penalty-area{
+    right: 19px;
+    border-right: 0;
+}
+
+.penalty-area:before{
+    position: absolute;
+    height: 70px;
+    width: 35px;
+    top: 35px;
+    border: 1px solid white;
+    content:"";
+}
+.left .penalty-area:before{
+   left:0px;
+  border-left:0;
+}
+.right .penalty-area:before{
+   right:0px;
+  border-right:0;
+}
+
+.penalty-area:after{
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    top: 70px;
+    background-color:white;
+    content:"";
+}
+.left .penalty-area:after{
+    right:15px;
+}
+.right .penalty-area:after{
+    left:15px;
+}
+
+.player{
+  position:absolute;
+  border-radius:50%;
+  width:10px;
+  height:10px;
+}
+.player:after{
+  font-size:10px;
+  position:absolute;
+  left:3px;
+}
+.home-team .player{
+  background:red;
+}
+.home-team .player.one{
+  top:162px;
+  left:20px;
+  height: 50px;
+  width: 50px;
+}
+.home-team .player.one:after{
+  content:"Lev Yacine";
+  color: white;
+  top: 20px;
+  font-size: 12px;
+  text-align: center;
+  pointer-events: none;
+}
+.home-team .player.two{
+  top:303px;
+  left:80px;
+  height: 50px;
+  width: 50px;
+}
+.home-team .player.two:after{
+  content: "Cafu";
+  color: white;
+  font-size: 12px;
+  top: 32px;
+  left: 11px;
+  pointer-events: none;
+
+}
+.home-team .player.three{
+  top: 31px;
+  left: 80px;
+  height: 50px;
+  width: 50px;
+}
+.home-team .player.three:after{
+  content: "Maldini";
+  top: 31px;
+  color: white;
+  font-size: 12px;
+  left: 6px;
+}
+
+.home-team .player.four{
+  top: 128px;
+  left:80px;
+}
+.home-team .player.four:after{
+  content:"4";
+}
+.home-team .player.five{
+  top:225px;
+  left:80px;
+}
+.home-team .player.five:after{
+  content:"5";
+}
+.home-team .player.six{
+  top:310px;
+  left:160px;
+}
+.home-team .player.six:after{
+  content:"6";
+}
+.home-team .player.seven{
+  top:60px;
+  left:160px;
+}
+.home-team .player.seven:after{
+  content:"7";
+}
+.home-team .player.eight{
+  top:145px;
+  left:160px;
+}
+.home-team .player.eight:after{
+  content:"8";
+}
+.home-team .player.nine{
+  top:225px;
+  left:160px;
+}
+.home-team .player.nine:after{
+  content:"9";
+}
+.home-team .player.ten{
+  top:145px;
+  left:240px;
+}
+.home-team .player.ten:after{
+  content:"10";
+  left:0px;
+}
+.home-team .player.eleven{
+  top:225px;
+  left:240px;
+}
+.home-team .player.eleven:after{
+  content:"11";
+  left:0px;
+}
+.visitor-team .player{
+  background:blue;
+}
+.visitor-team .player:after{
+  color:white;
+}
+.visitor-team .player.one{
+  top:190px;
+  right:20px;
+  background:cyan;
+}
+.visitor-team .player.one:after{
+  content:"1";
+  color:red;
+}
+.visitor-team .player.two{
+  top:310px;
+  right:80px;
+}
+.visitor-team .player.two:after{
+  content:"2";
+}
+.visitor-team .player.three{
+  top:60px;
+  right:80px;
+}
+.visitor-team .player.three:after{
+  content:"Cafu";
+  right: 10px;
+}
+.visitor-team .player.four{
+  top:145px;
+  right:80px;
+}
+.visitor-team .player.four:after{
+  content:"4";
+}
+.visitor-team .player.five{
+  top:225px;
+  right:80px;
+}
+.visitor-team .player.five:after{
+  content:"5";
+}
+.visitor-team .player.six{
+  top:310px;
+  right:160px;
+}
+.visitor-team .player.six:after{
+  content:"6";
+}
+.visitor-team .player.seven{
+  top:60px;
+  right:160px;
+}
+.visitor-team .player.seven:after{
+  content:"7";
+}
+.visitor-team .player.eight{
+  top:145px;
+  right:160px;
+}
+.visitor-team .player.eight:after{
+  content:"8";
+}
+.visitor-team .player.nine{
+  top:225px;
+  right:160px;
+}
+.visitor-team .player.nine:after{
+  content:"9";
+}
+.visitor-team .player.ten{
+  top:145px;
+  right:240px;
+}
+.visitor-team .player.ten:after{
+  content:"10";
+  left:0px;
+}
+.visitor-team .player.eleven{
+  top:225px;
+  right:240px;
+}
+.visitor-team .player.eleven:after{
+  content:"11";
+  left:0px;
+}
+.player{
+  animation-duration:5s;
+  animation-timing-function:linear;
+  animation-delay:2s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
+  animation-play-state:running;
+}
+.home-team .player.nine{
+  animation-name:nine;
+}
+@keyframes nine
+{
+0%   {left:160px; top:225px;}
+25%  {left:200px; top:265px;}
+50%  {left:200px; top:225px;}
+75%  {left:200px; top:185px;}
+100% {left:160px; top:225px;}
+}
+.home-team .player.eight{
+  animation-name:eight;
+}
+@keyframes eight
+{
+0%   {left:160px; top:145px;}
+25%  {left:200px; top:185px;}
+50%  {left:200px; top:145px;}
+75%  {left:200px; top:105px;}
+100% {left:160px; top:145px;}
+}
