@@ -7,8 +7,27 @@ footer {
   height: 110px;
   color: white;
   margin-top: 81px;
+  background-color: black;
+    height: 110px;
+    color: white;
+    margin-top: -75px;
+    display: flex;
+    align-items: flex-end;
+}
+
+p{
+  bottom: -120px;
+}
+
+h3{
+  margin: 10px -1px 12px 28px;
 
 }
+
+.pfooter{
+  font-size: small;
+}
+
 .imgarticle {
   width: 81%;
   height: 331px;
@@ -17,6 +36,11 @@ footer {
   margin-left: 62px;
   background-color: #fceac4;
   margin-top: 38px;
+  background: linear-gradient(124deg, #f2ae1c, #fceac4);
+  border-radius: 11px;
+  border: 4px solid #c5842099;
+
+
 
 
 }
@@ -24,18 +48,20 @@ footer {
   background-color: #f2ae1c;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   /* margin-right: 15%; */
-  margin-left: 88px;
+  margin-left: 85px;
   /* margin-bottom: 47px; */
   /* margin-top: 47px; */
   /* padding: 20px; */
   text-align: center;
   position: relative;
-  top: 416px;
+  top: 436px;
   width: 532px;
-  border: 2px dashed;
+ 
+
   border-radius: 11px;
   height: 60px;
-  background: linear-gradient(124deg, #f2ae1c, #fceac4);
+  background: linear-gradient(124deg, transparent, transparent);
+  font-size: 15px;
 }
 
 header {
@@ -87,7 +113,7 @@ margin-bottom: 3px;
   border: 3px solid gainsboro;
   padding: 15px;
   height: 304px;
-  top: 72px;
+ top: 171px;
   background-color: rgb(231 236 237);
   margin-right: 19px;
   background: linear-gradient(124deg, #f5f5f863, #9E9E9E);
@@ -120,7 +146,7 @@ margin-bottom: 3px;
   align-items: center;
   flex-wrap: wrap;
   position: relative;
-    top: -58px;
+    top: -173px;
 
 }
 
@@ -176,7 +202,7 @@ nav a:hover {
 }
 
 
-section {
+.sectionhome {
     /*background-color: goldenrod;*/
     height: 390px;
 }
@@ -199,7 +225,7 @@ padding: 17px;
 }
 p{
 
-  position: relative;
+ 
   text-align: center;
   font-size: 28px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -211,12 +237,12 @@ p{
 
 .homepix {
 
-    width: 100%;
-    padding: 0;
-    height: 85%;
-    position: absolute;
-    z-index: 0;
-    opacity: 0.2;
+  width: 100%;
+  padding: 0;
+  height: 294px;
+  position: absolute;
+  z-index: 0;
+  opacity: 0.2;
     
 }
 
@@ -695,7 +721,7 @@ ol, li {
   left: 0;
   width: 100%;
   height: 100%;
-  scroll-snap-align: center;
+
 }
 
 @media (hover: hover) {
@@ -799,4 +825,36 @@ ol, li {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.pcategories{
+  position:relative;  
+  top: 110px;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	margin-top: 50px;
+}
+
+img {
+	max-width: 100%;
+ 
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 50px;
+}
+
+li {
+	font-size: 24px;
+	line-height: 1.5;
 }
